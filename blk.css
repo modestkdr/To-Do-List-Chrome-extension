@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Exo);
+body {
+  width:300px;
+  margin: 5% auto;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  overflow: hidden;
+  background:#000;
+}
+#content {
+	width:94%;
+	margin:2% auto;
+}
+label input {
+	width:90%;
+	margin:2% auto;
+	background-repeat: no-repeat;
+	padding: 2px;
+	border-radius:8px;
+}
+label span {
+  display: block;
+  font-size: 14px;
+}
+label input:focus {
+	border:1px solid #246CDE;
+	outline:none;
+}
+ul {
+  list-style-type: none;
+  margin: 10px 0 0;
+  padding: 0;
+  max-height: 392px;
+  overflow-y: auto;
+}
+li {
+  font-size: 15px;
+  line-height: 22px;
+  margin:2%;
+  padding:2.5%;
+  clear:both;
+  border-bottom:1px solid #444;
+}
+
+li:hover {
+	  box-shadow:2px 2px 3px #666;
+}
+li:first-letter {
+    text-transform: uppercase;
+}
+li.removing span {
+  text-decoration: line-through;
+}
+.check {
+  color: #080;
+  background:url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAQAAAADHm0dAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAEgAAABIAEbJaz4AAAAJdnBBZwAAABUAAAAVAHF8yDUAAACISURBVCjPxVIxDsMgDDzarPAlspIhn+3A2jF7fuIPXAcixTgtTaJUvZMtQGcLzjhiL267lT+SdvagJwA83VbqaEQapoALI0mCJRcyrmtQX6AHuFS/B+u+BZ6evu7J+llTyJJCloQsKTTNepi4RjqbOD2tygF4zZYD4yB3tZXx42C/4e//9YD0BQyQXZp6UF8uAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg==);
+  display: block;
+  float: right;
+  height: 22px;
+  text-decoration: none;
+  width: 22px;
+ border-radius:3px;
+ opacity:0.9;
+ margin:0 2px;
+}
+.check:hover {
+  border:1px solid #f9f9f9;
+  opacity:1.0;
+}
+
+#nav { float:right;margin:4px 0 1px 0;}
+#w,#b,#blu { text-decoration:none; }
+#w img,#b img,#blu img { margin:2px; }
+#w img { border:1px solid black; }
+#b img { border:1px solid white; }
+#blu img { border:1px solid #09c; }
+
+/* Webkit Scrollbar
+   Ref: http://css-tricks.com/custom-scrollbars-in-webkit/
+*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
