@@ -1,6 +1,6 @@
 {
   "name": "To Do List",
-  "version": "0.4",
+  "version": "0.5",
   "description": "To Do List - Chrome extension enables you organize your tasks effectively right from your browser.",
    "icons": {
     "128": "icon.png",
